@@ -65,8 +65,18 @@ const NotesBar = ({
       flexDir={"column"}
       borderRight={{ md: "2px solid" }}
     >
-      <Flex ml={"20px"} mt={"10px"}>
-        <Button gap={'10px'} color={'gray.500'} _hover={{color:'gray.100'}}>
+      <Flex ml={"20px"} mt={"10px"} gap={"20px"}>
+        <Button as={"a"} href={"https://bradleeking.com/UniWorkPage"}>
+          Go Back
+        </Button>
+        <Button
+          gap={"10px"}
+          as={"a"}
+          href={"https://github.com/kingofbrad/NoteBook"}
+          target={"_blank"}
+          color={"gray.500"}
+          _hover={{ color: "gray.100" }}
+        >
           <Icon as={AiFillGithub} />
           Source Code
         </Button>
