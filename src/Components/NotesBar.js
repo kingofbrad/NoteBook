@@ -66,7 +66,7 @@ const NotesBar = ({
       borderRight={{ md: "2px solid" }}
     >
       <Flex ml={"20px"} mt={"10px"} gap={"20px"}>
-        <Button as={"a"} href={"https://bradleeking.com/UniWorkPage"}>
+        <Button as={"a"} href={"https://bradleeking.com/MainWorkPage"}>
           Go Back
         </Button>
         <Button
